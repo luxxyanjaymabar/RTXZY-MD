@@ -212,7 +212,7 @@ await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/fil
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(a)$/i
+handler.command = /^(menu|help|\?)$/i
 
 handler.exp = 3
 
